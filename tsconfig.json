@@ -5,11 +5,9 @@
     "strictNullChecks": true,
     "allowJs": false,
     "declaration": true,
-    "plugins": [
-      {
-        "name": "@astrojs/ts-plugin"
-      }
-    ],
+
+    "types": ["astro/client"],
+
     "paths": {
       "@components/*": ["src/components/*"],
       "@assets/*": ["src/assets/*"],
@@ -20,5 +18,5 @@
       "@/*": ["src/*"]
     }
   },
-  "include": ["src/**/*"]
+  "include": [".astro/types.d.ts", "src/**/*"]
 }

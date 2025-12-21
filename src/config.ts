@@ -59,7 +59,7 @@ export const profileConfig: ProfileConfig = {
 	avatar: "assets/images/demo-avatar.jpg",
 	// 图片路径：相对于 /src 目录；如果以 '/' 开头，则相对于 /public 目录
 	name: "MoScenix",
-	bio: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+	bio: "Life is code , I will debug it",
 	links: [
 		{
 			name: "bilibili",
